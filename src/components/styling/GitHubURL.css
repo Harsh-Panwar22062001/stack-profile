@@ -1,0 +1,18 @@
+
+.github-link {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease, transform 0.2s ease;  
+  }
+  
+  .github-link:hover {
+    background-color: #555; 
+    transform: scale(1.05); 
+  }
+  

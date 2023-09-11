@@ -1,0 +1,33 @@
+/* SlackDisplayPicture.css */
+.slack-display-picture {
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: border-color 0.3s ease-in-out;
+    height: 12rem;
+    width: 12rem;
+    transition: transform 0.3s ease;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+  }
+  
+  .slack-display-picture:hover {
+    border-color: black;
+    
+  }
+  
+  /* Animation for hover effect */
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
